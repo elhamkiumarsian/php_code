@@ -19,7 +19,7 @@ class LiteralDateParsingTest extends TestCase
     /**
      * @dataProvider additionProvider
      */
-    public function testRepeat($a,$b)
+    public function test_date_parsing($a,$b)
     {
         
         $abc =  $this->LiteralDateParsing->date_parsing($a);

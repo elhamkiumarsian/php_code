@@ -19,7 +19,7 @@ class SentenceAlphabetTest extends TestCase
     /**
      * @dataProvider additionProvider
      */
-    public function testRepeat($a,$b)
+    public function test_all_alphabet($a,$b)
     {
         
         $abc =  $this->SentenceAlphabet->find_all_alphabet($a);
